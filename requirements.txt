@@ -1,0 +1,11 @@
+# 论文获取
+# Python 3.8+
+
+# HTTP 请求
+requests>=2.28.0,<3.0
+
+# RSS/Atom 解析
+feedparser>=6.0.0
+
+# 代理支持（可选，需代理时安装）
+PySocks>=1.7.1
