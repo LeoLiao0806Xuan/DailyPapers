@@ -4,8 +4,35 @@
 # HTTP 请求
 requests>=2.28.0,<3.0
 
+# 异步 HTTP 请求
+aiohttp>=3.8.0
+
+# HTML 解析（用于提取摘要）
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+
 # RSS/Atom 解析
 feedparser>=6.0.0
 
 # 代理支持（可选，需代理时安装）
 PySocks>=1.7.1
+
+# 开发依赖
+
+# 代码风格检查
+black>=22.0.0
+flake8>=4.0.0
+
+# 类型检查
+mypy>=0.900
+
+# 测试
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# 文档
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0
+
+# 其他开发工具
+pre-commit>=2.0.0
