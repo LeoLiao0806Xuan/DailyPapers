@@ -35,8 +35,6 @@ DailyPapers/
 │   └── utils.py              # 工具函数
 ├── .gitignore                # Git忽略文件
 ├── README.md                 # 项目说明文档
-├── config_uav.py             # UAV领域配置文件
-├── main_uav.py               # UAV领域主程序
 ├── requirements.txt          # 依赖文件
 ├── run.py                    # 运行脚本
 ├── setup.py                  # 安装配置
@@ -203,4 +201,4 @@ flowchart TD
 
 ---
 
-**最后更新时间：** 2026-03-01
+**最后更新时间：** 2026-03-02
